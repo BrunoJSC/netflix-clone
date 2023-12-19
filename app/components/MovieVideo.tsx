@@ -49,8 +49,8 @@ export default async function MovieVideo() {
             overview={data?.overview as string}
             releaseDate={data?.release as number}
             title={data?.title as string}
-            youtubeUrl={data?.youtubeString as string}
             key={data?.id}
+            youtubeUrl={data?.videoSource as string}
           />
         </div>
       </div>
